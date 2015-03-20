@@ -1,0 +1,143 @@
+/*-----------------------------------*\
+	$RESET
+\*-----------------------------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/*-----------------------------------*\
+	$RESET
+\*-----------------------------------*/
+
+html, body {
+	background-color: #F7F7F7;
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: 400;
+	color: #333333;
+}
+
+h2 {
+	font-size: 1.4em;
+	font-weight: 300;
+	color: #747474;
+	line-height: 2em;
+}
+
+h3 {
+	color: #333333;
+	font-weight: 400;
+	font-size: 1.2em;
+}
+
+p {
+	color: #747474;
+	font-weight: 300;
+	font-size: 1em;
+	line-height: 2em;
+}
+
+a {
+	text-decoration: none;
+	color: #00558D;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #00558D;
+	-webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+
+a:hover {
+	color: #C1272D;
+	border-bottom: 1px solid #C1272D;
+}
+
+.wrap {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.header {
+	padding: 40px 20px;
+	height: 100px;
+	text-align: left;
+}
+
+.logo {
+	max-width: 100px;
+/*	display: block;
+	float: left;*/
+}
+
+.hero {
+	text-align: center;
+	padding: 80px 20px 140px;
+}
+
+.dillo {
+	max-width: 400px;
+}
+
+.current {
+	text-align: center;
+	padding: 140px 20px;
+	background-color: white;
+}
+
+.bp {
+	max-width: 300px;
+	margin-bottom: 40px;
+}
+
+.one-of-two {
+	float: left;
+	width: 50%;
+	height: 100%;
+	padding: 80px 20px;
+}
+
+footer {
+	background-color: #C1272D;
+	padding: 20px;
+	text-align: center;
+}
+
+.sml-logo {
+	max-height: 60px;
+}
+
+
+@media (max-width: 600px) {
+	.one-of-two { width: 100%; }
+	.alpha { padding: 80px 20px 10px;}
+	.omega { padding: 20px 20px 80px;}
+	.header { text-align: center;}
+	.dillo { max-width: 300px;}
+	h1 { font-size: 1.5em;}
+	}
+
